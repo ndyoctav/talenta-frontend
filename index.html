@@ -54,6 +54,7 @@
     </style>
 </head>
 <body>
+    <!-- HEADER SECTION -->
     <div style="background-color: #55000a; color:white; padding: 10px;">
         <div class="container">
             <img src="images/logo.jpeg">
@@ -75,6 +76,8 @@
             </span>
         </div>
     </div>
+    <!-- END HEADER SECTION -->
+    <!-- MENU SECTION -->
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
@@ -96,9 +99,9 @@
             </div><!--/.nav-collapse -->
         </div>
     </nav>
-
+    <!-- END MENU SECTION -->
+    <!-- CONTENT SECTION -->
     <div class="container">
-
         <div>
             <h1>Users (5)</h1><br>
             <div class="row">
@@ -185,51 +188,52 @@
                 </tbody>
             </table>
         </div>
-        
-
+        <!-- END CONTENT SECTION -->
         </div><!-- /.container -->
+        <!-- MODAL -->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header" style="border:none;">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Add New User</h4>
-                        </div>
-                        <div class="modal-body">
-                            <form>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">First Name</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Last Name</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1">
-                                        </div>
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="border:none;">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Add New User</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">First Name</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1">
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Email</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Job Position</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1">
-                                        </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Last Name</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1">
                                     </div>
                                 </div>
-                            </form>
-                            <button type="button" class="btn btn-primary" style="background-color:#990101">Save</button>
-                        </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Job Position</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn-primary" style="background-color:#990101">Save</button>
                     </div>
                 </div>
             </div>
-    </body>
-    </html>
+        </div>
+        <!-- END MODAL -->
+</body>
+</html>
